@@ -3,7 +3,7 @@
 A minimal agentic AI system that sends **Socratic reflections** via WhatsApp, grounded in your digital activity: **journal**, **calendar**, **screen time**, and **weekly notes**.
 Built with [LangGraph](https://github.com/langchain-ai/langgraph), OpenAI, and Twilio.
 
-![screenshot](docs/images/sample_whatsapp_message.png)
+![screenshot](images/reflective_real_example.JPG)
 
 ---
 
@@ -26,9 +26,9 @@ The agent follows a 3-step pipeline using LangGraph:
 
 ```mermaid
 graph TD
-    P[Perceive<br/>(calendar, screen time, notes)]
-    R[Reflect<br/>(Socratic AI)]
-    W[Whisper<br/>(send message)]
+    P[Perceive\n(calendar, screen time, notes)]
+    R[Reflect\n(Socratic AI)]
+    W[Whisper\n(send message)]
 
     P --> R --> W
 ```
