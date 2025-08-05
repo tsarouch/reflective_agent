@@ -4,9 +4,9 @@ A minimal agentic AI system that sends **Socratic reflections** via WhatsApp, gr
 Built with [LangGraph](https://github.com/langchain-ai/langgraph), OpenAI, and Twilio.
 
 <p align="center">
-  <img src="images/diagram.png" alt="Real Example" width="400"/>
+  <img src="images/diagram.png" alt="Real Example" width="600"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="images/reflective_real_example.JPG" alt="Diagram" width="300"/>
+  <img src="images/reflective_real_example.JPG" alt="Diagram" width="200"/>
 </p>
 
 ---
