@@ -3,7 +3,11 @@
 A minimal agentic AI system that sends **Socratic reflections** via WhatsApp, grounded in your digital activity: **journal**, **calendar**, **screen time**, and **weekly notes**.
 Built with [LangGraph](https://github.com/langchain-ai/langgraph), OpenAI, and Twilio.
 
-<img src="images/reflective_real_example.JPG" alt="screenshot" width="300"/>
+<p align="center">
+  <img src="images/diagram.png" alt="Real Example" width="400"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="images/reflective_real_example.JPG" alt="Diagram" width="300"/>
+</p>
 
 ---
 
