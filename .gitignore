@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+*.log
+*.pyc
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Ignore all data (including subfolders)
+data/
+
+# Specific files (your config and journal files)
+*.env
+*.key
+*.secret
+*.token
+*.txt
+
+# VSCode or PyCharm IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter outputs
+*.out
+*.output
+*.result

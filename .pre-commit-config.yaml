@@ -1,0 +1,20 @@
+# .pre-commit-config.yaml
+
+# This configuration will:
+# Run gitleaks to detect secrets like API keys, tokens, etc.
+# Fix formatting issues
+# Catch merge conflicts and whitespace issues
+
+repos:
+  - repo: https://github.com/zricethezav/gitleaks
+    rev: v8.28.0
+    hooks:
+      - id: gitleaks
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: check-merge-conflict
+      - id: check-yaml
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
