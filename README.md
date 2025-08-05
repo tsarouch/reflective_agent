@@ -24,14 +24,11 @@ The goal is not to advise—but to reflect and provoke awareness.
 
 The agent follows a 3-step pipeline using LangGraph:
 
-```mermaid
-graph TD
     P[Perceive (calendar, screen time, notes)]
     R[Reflect (Socratic AI)]
     W[Whisper (send message)]
 
     P --> R --> W
-```
 
 You provide:
 - A text journal (freeform thoughts including goals, ambitions, fears etc.)
